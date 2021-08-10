@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    background-color: pink;
+}
+.profileDiv{
+    width: auto;
+    height: auto;
+}
+
+img{
+    width: 280px;
+    height: 280px;
+}
+@media(max-width: 360px){
+    p{
+        font-size:60%;
+    }
+    img{
+        width:auto;
+        height:auto;
+    }
+}
